@@ -248,11 +248,16 @@ text-align: center;
 max-width: 640px;
 margin: 30px auto;
 font-size: 1.2em;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .freya {
-width: 100%;
+
+display: block;
 margin: 0px auto;
+max-width: 640px;
+width: 100%;
 
 }
 
@@ -290,7 +295,7 @@ margin: 0px auto;
 
 /* Footer SLUT */
 
-
+/* mediascreen anpassning för mindre mobilskärmar */
 
 @media screen and (max-width: 550px) {
   
@@ -299,9 +304,11 @@ margin: 0px auto;
         padding-right: 3px;
     }
 
-    .recensionHeader, .recensionsText, .kundNamn {
+    .recensionHeader, .recensionsText, .kundNamn{
         padding-left: 20px;
         padding-right: 20px;
     }
     
 }
+
+/* mediascreen anpassning för mindre mobilskärmar SLUT */
