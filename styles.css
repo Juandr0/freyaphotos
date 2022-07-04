@@ -192,7 +192,7 @@ background-color: rgb(206, 203, 203);
 text-align: center;
 }
 
-    /* Media query för tabell*/
+    /* Media query för pristabell*/
     @media screen and (max-width: 864px){
         .pristabell{
             font-size: 1em;
@@ -215,7 +215,7 @@ text-align: center;
     @media screen and (max-width: 550px) {
         .pristabell {
             width: 100%;
-            font-size: 0.9em;
+            font-size: 0.8em;
         }
         .pristabell th, td{
             padding:5px;
@@ -223,7 +223,7 @@ text-align: center;
     }
 
 
-    /* Media query för tabell SLUT*/
+    /* Media query för pristabell SLUT*/
 /* Prislista tabell SLUT */
 
 
