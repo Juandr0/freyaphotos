@@ -12,8 +12,8 @@ h1, h2, h3, .navbar a {
 }
 
 body {
+    padding: 0px 10px 0px 10px;
     max-width: 1280px;
-    margin:auto;
     background-color: rgba(110, 196, 236, 0.116); 
    /*  background-image: linear-gradient(rgb(255, 255, 255), rgb(184, 184, 184)); */
     overflow: scroll;
@@ -22,7 +22,7 @@ body {
 /* ---------------Navigatonsmenyn börjar--------------- */
 .navbar ul {
     display: flex;
-    margin-left: -2.5em;
+    margin-left: -2.1em;
     font-size: larger;
     text-align: center;
     
@@ -215,7 +215,7 @@ text-align: center;
     @media screen and (max-width: 550px) {
         .pristabell {
             font-size: 0.8em;
-            max-width: fit-content;
+            width: 375px;
         }
         .pristabell th, td{
             padding:5px;
@@ -238,13 +238,12 @@ text-align: center;
 max-width: 640px;
 margin: 30px auto;
 font-size: 1.2em;
-
 }
 
 .freya {
-max-width: 640px;
+width: 100%;
 margin: 0px auto;
-display: block;
+
 }
 
 /* Om Freya text SLUT */
