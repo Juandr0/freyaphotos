@@ -71,8 +71,8 @@ li.aktiv {
 }
 
 .recensionHeader{
-    margin: 10px auto ;
-    max-width:400px;
+    margin: 10px auto 10px auto ;
+    max-width:500px;
     text-align: center;
     
 } 
@@ -106,7 +106,7 @@ li.aktiv {
 
 /*Datum-knappar storlek*/
 .datum{
-    width: 85%;
+    width: 90%;
     }
 
 /*Sänd-knapp storlek*/
@@ -290,10 +290,12 @@ margin: 0px auto;
 
 /* Footer SLUT */
 
-@media screen and (max-width: 1280px) {
+
+
+@media screen and (max-width: 550px) {
   
     body {
-        padding-left: 3px;fatum
+        padding-left: 3px;
         padding-right: 3px;
     }
 
