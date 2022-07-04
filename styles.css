@@ -12,6 +12,7 @@ h1, h2, h3, .navbar a {
 }
 
 body {
+    margin: auto;
     padding: 0px 5px 0px 5px;
     max-width: 1280px;
     background-color: rgba(110, 196, 236, 0.116); 
@@ -215,11 +216,14 @@ text-align: center;
     @media screen and (max-width: 550px) {
         .pristabell {
             font-size: 0.8em;
-            width: 375px;
         }
         .pristabell th, td{
             padding:5px;
         }
+        .tabellsektion{
+            width: 375px;
+        }
+
     }
 
 
