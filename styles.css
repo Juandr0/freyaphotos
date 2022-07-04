@@ -89,22 +89,21 @@ li.aktiv {
 /* Kundrecensioner SLUT */ 
 
 /* kontaktformulär */
+
 .formsformular {
     margin-top: 3em;
     text-align: center;
 }
 
 .kontaktformulartext {
-
     display: inline-block;
     text-align: left;
-    
 }
 
 
 /*Datum-knappar storlek*/
 .datum{
-    width: 100px;
+    width: 100%
 }
 
 /*Sänd-knapp storlek*/
@@ -228,7 +227,8 @@ text-align: center;
             font-size: 0.8em;
         }
         .pristabell th, td{
-            padding:2px;
+            padding: 0px;
+            max-width: 100%;
         }
     }
 
@@ -290,3 +290,9 @@ margin: 0px auto;
 }
 
 /* Footer SLUT */
+
+@media screen and (min-width:1280px){
+    body {
+        padding: 0px 3px;
+}
+}
