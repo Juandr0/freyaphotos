@@ -11,15 +11,23 @@ h1, h2, h3, .navbar a {
     color: black;
 }
 
+
+
 body {
     margin: 0px auto 0px auto;
-    padding: 0px 5px 0px 5px;
     max-width: 1280px;
     background-color: rgba(110, 196, 236, 0.116); 
    /*  background-image: linear-gradient(rgb(255, 255, 255), rgb(184, 184, 184)); */
     overflow: scroll;
-
 }
+
+@media screen and (max-width: 1280px) {
+body {
+    padding: 0px 3px 0px 3px;
+}
+}
+    
+
 /* ---------------Navigatonsmenyn börjar--------------- */
 .navbar ul {
     display: flex;
