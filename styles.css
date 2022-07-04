@@ -66,17 +66,18 @@ li.aktiv {
 /* ---------------Navigatonsmenyn slutar--------------- */
 
 /* Kundrecensioner */
+.recensionHeader, .recensionsText, .kundNamn {
+    margin: 10px auto ;
+}
 
 .recensionHeader{
-    text-align: center;
+    margin: 10px auto ;
     max-width:400px;
-    padding: 1px;
+    text-align: center;
     
 } 
 .recensionsText {
     margin: 10px auto 20px auto;
-    padding-left: 5px;
-    padding-right: 5px;
     max-width: 400px;
     font-size: 1.2em;
 }
@@ -295,6 +296,11 @@ margin: 0px auto;
     body {
         padding-left: 3px;
         padding-right: 3px;
+    }
+
+    .recensionHeader, .recensionsText, .kundNamn {
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }
