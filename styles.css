@@ -214,8 +214,8 @@ text-align: center;
 
     @media screen and (max-width: 550px) {
         .pristabell {
-            width: 80%;
             font-size: 0.8em;
+            max-width: fit-content;
         }
         .pristabell th, td{
             padding:5px;
@@ -280,3 +280,4 @@ display: block;
 }
 
 /* Footer SLUT */
+
