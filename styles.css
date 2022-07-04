@@ -106,8 +106,8 @@ li.aktiv {
 
 /*Datum-knappar storlek*/
 .datum{
-    width: 100%
-}
+    width: 85%;
+    }
 
 /*Sänd-knapp storlek*/
 .knappstorlek {
@@ -228,7 +228,6 @@ text-align: center;
         }
         .pristabell th, td{
             padding: 0px;
-            border: solid red 1px;
         }
     }
 
@@ -294,7 +293,7 @@ margin: 0px auto;
 @media screen and (max-width: 1280px) {
   
     body {
-        padding-left: 3px;
+        padding-left: 3px;fatum
         padding-right: 3px;
     }
 
