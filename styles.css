@@ -66,23 +66,23 @@ li.aktiv {
 /* ---------------Navigatonsmenyn slutar--------------- */
 
 /* Kundrecensioner */
-.recensionHeader, .recensionsText, .kundNamn {
+.recensionheader, .recensionstext, .kundnamn {
     margin: 10px auto ;
 }
 
-.recensionHeader{
+.recensionheader{
     margin: 10px auto 10px auto ;
     max-width:500px;
     text-align: center;
     
 } 
-.recensionsText {
+.recensionstext {
     margin: 10px auto 20px auto;
     max-width: 400px;
     font-size: 1.2em;
 }
 
-.kundNamn {
+.kundnamn {
     text-align: center;
     margin: 0px auto 10px 0px;
     font-size: small;
@@ -123,13 +123,17 @@ li.aktiv {
     height: auto;
 }
 
-
 /* Galleribilder flexbox */
 
 .bildbehallare{
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+.storbild {
+
+    padding: 0px 2px 0px 1px;
+    box-sizing: border-box;
 }
 
 .flexboxbild {
@@ -144,9 +148,6 @@ li.aktiv {
     transition:0.5s;
     
 }
-.bredd1280{
-width: 100%;
-   }
     /* media query för galleri */
     @media screen and (min-width: 695px)
     {
@@ -304,7 +305,7 @@ width: 100%;
         padding-right: 3px;
     }
 
-    .recensionHeader, .recensionsText, .kundNamn{
+    .recensionheader, .recensionstext, .kundnamn{
         padding-left: 20px;
         padding-right: 20px;
     }
